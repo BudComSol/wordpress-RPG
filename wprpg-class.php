@@ -128,7 +128,8 @@ class wpRPG {
                         else
                             $class = new $info['class'];
                         if (method_exists($class, $info['func'])) {
-                            $class->$info['func']();
+                            $func = $info['func'];
+                            $class->$func();
                         }
                     }
                 }
