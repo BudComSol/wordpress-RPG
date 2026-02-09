@@ -21,7 +21,7 @@ class wpRPG {
     public $crons;
 
     /**
-     * Consrtuctor for wpRPG Class
+     * Constructor for wpRPG Class
      * @since 1.0.0
      */
     public function __construct() {
