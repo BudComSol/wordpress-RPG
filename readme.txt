@@ -1,13 +1,13 @@
 === Wordpress RPG ===
 Contributors: uaktags
 Tags: rpg, wpRPG, Role Playing Game, games, ezRPG
-Donate link: http://tagsolutions.tk/donate/
+Donate link: https://tagsolutions.tk/donate/
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 8.0
 Stable tag: 1.0.22
 License: GPLv2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Modular Role-Playing-Game engine built ontop of WordPress
 

@@ -190,11 +190,11 @@ if ( !class_exists( 'wpRPG_Profiles' ) ) {
         function includeJquery( ) {
             wp_enqueue_script( 'jquery' );
 			//jQuery ScrollTo Plugin
-			wp_register_script( 'jquery-scrollto', 'http://balupton.github.io/jquery-scrollto/lib/jquery-scrollto.js' );
+			wp_register_script( 'jquery-scrollto', 'https://balupton.github.io/jquery-scrollto/lib/jquery-scrollto.js' );
 			//History.js
-			wp_register_script( 'history.js', 'http://browserstate.github.io/history.js/scripts/bundled/html4+html5/jquery.history.js' );
+			wp_register_script( 'history.js', 'https://browserstate.github.io/history.js/scripts/bundled/html4+html5/jquery.history.js' );
 			//Ajaxify
-			wp_register_script( 'ajaxify', 'http://rawgithub.com/browserstate/ajaxify/master/ajaxify-html5.js' );
+			wp_register_script( 'ajaxify', 'https://rawgithub.com/browserstate/ajaxify/master/ajaxify-html5.js' );
 			//wp_enqueue_script( 'jquery-scrollto' );
 			wp_enqueue_script( 'history.js' );
 			//wp_enqueue_script( 'ajaxify' );
@@ -274,7 +274,7 @@ if ( !class_exists( 'wpRPG_Profiles' ) ) {
                     $result .= '</div><br/><br/>';
 					if ( get_option ( 'show_wpRPG_Version_footer' ) )	{
 						$result .= '<footer style="display:block;margin: 0 2%;border-top: 1px solid #ddd;padding: 20px 0;font-size: 12px;text-align: center;color: #999;">';
-						$result .= 'Powered by <a href="http://tagsolutions.tk/wordpress-rpg/">wpRPG '. $this->plug_version .'</a></footer>';
+						$result .= 'Powered by <a href="https://tagsolutions.tk/wordpress-rpg/">wpRPG '. $this->plug_version .'</a></footer>';
 					}
 					return $result;
                 }
