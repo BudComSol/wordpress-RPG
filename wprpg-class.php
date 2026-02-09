@@ -122,12 +122,12 @@ class wpRPG {
                 $i = 1;
                 $xs = $this->wpRPG_time_elapsed($last, $info['duration']);
                 while ($i++ <= $xs) {
-                    if (class_exists($info['class'])) {
+                    if (!empty($info['class']) && class_exists($info['class'])) {
                         if ($info['class'] == 'wpRPG')
                             $class = $this;
                         else
                             $class = new $info['class'];
-                        if (method_exists($class, $info['func'])) {
+                        if (!empty($info['func']) && method_exists($class, $info['func'])) {
                             $func = $info['func'];
                             $class->$func();
                         }
