@@ -14,7 +14,7 @@ if ( !class_exists( 'wpRPG_Shop' ) ) {
         
         function __construct( ) {
             parent::__construct();
-			require_once(__DIR__ . "/Shop_class.php");
+			require_once(__DIR__ . "/shop_class.php");
 			add_action( 'init', array($this, 'wpRPG_Shop_load_language'));
 			add_action( 'admin_init', array( $this, 'register_settings' ) );
 
