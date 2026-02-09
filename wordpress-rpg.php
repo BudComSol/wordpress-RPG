@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: WP RPG
-Plugin URI: http://wordpress.org/extend/plugins/wprpg/
+Plugin URI: https://wordpress.org/extend/plugins/wprpg/
 Version: 1.0.22
-Author: <a href="http://tagsolutions.tk">Tim G.</a> | <a href="http://wordpressrpg.com">wpRPG Official</a> | <a href="http://aioxperts.com">AIOXperts</a>
+Author: <a href="https://tagsolutions.tk">Tim G.</a> | <a href="https://wordpressrpg.com">wpRPG Official</a> | <a href="https://aioxperts.com">AIOXperts</a>
 Description: RPG Elements added to WP
 Text Domain: wp-rpg
 License: GPL3

@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: WPRPG Shop (Official Sample)
-Plugin URI: http://wordpress.org/extend/plugins/wprpg/
+Plugin URI: https://wordpress.org/extend/plugins/wprpg/
 Version: 1.0.0
 WPRPG: 1.0.19
-Author: <a href="http://tagsolutions.tk">Tim G.</a>
+Author: <a href="https://tagsolutions.tk">Tim G.</a>
 Description: Creates a Shop concept to coincide with the Official Shop sample
 Text Domain: wp-rpg
 License: GPL3
@@ -181,7 +181,7 @@ if ( !class_exists( 'wpRPG_Shop' ) ) {
 								';
 				if ( get_option ( 'show_wpRPG_Version_footer' ) )	{
 					$result .= '<footer style="display:block;margin: 0 2%;border-top: 1px solid #ddd;padding: 20px 0;font-size: 12px;text-align: center;color: #999;">';
-					$result .= 'Powered by <a href="http://tagsolutions.tk/wordpress-rpg/">wpRPG '. $this->plug_version .'</a></footer>';
+					$result .= 'Powered by <a href="https://tagsolutions.tk/wordpress-rpg/">wpRPG '. $this->plug_version .'</a></footer>';
 				}
 				return $result;
 			}

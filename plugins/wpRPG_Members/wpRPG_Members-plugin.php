@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: WPRPG Members (Official Sample)
-Plugin URI: http://wordpress.org/extend/plugins/wprpg/
+Plugin URI: https://wordpress.org/extend/plugins/wprpg/
 Version: 1.0.3
 WPRPG: 1.0.13
-Author: <a href="http://tagsolutions.tk">Tim G.</a>
+Author: <a href="https://tagsolutions.tk">Tim G.</a>
 Description: Adds a Player list
 Text Domain: wp-rpg
 License: GPL3
@@ -53,7 +53,7 @@ if ( !class_exists( 'wpRPG_Members' ) && class_exists( 'wpRPG' ) ) {
 			}
 			if ( get_option ( 'show_wpRPG_Version_footer' ) )	{
 				$result .= '<footer style="display:block;margin: 0 2%;border-top: 1px solid #ddd;padding: 20px 0;font-size: 12px;text-align: center;color: #999;">';
-				$result .= 'Powered by <a href="http://tagsolutions.tk/wordpress-rpg/">wpRPG '. WPRPG_VERSION .'</a></footer>';
+				$result .= 'Powered by <a href="https://tagsolutions.tk/wordpress-rpg/">wpRPG '. WPRPG_VERSION .'</a></footer>';
 			}
             return $result;
         }

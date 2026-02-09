@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: WPRPG Registration (Official Sample)
-Plugin URI: http://wordpress.org/extend/plugins/wprpg/
+Plugin URI: https://wordpress.org/extend/plugins/wprpg/
 Version: 1.0.3
 WPRPG: 1.0.13
-Author: <a href="http://tagsolutions.tk">Tim G.</a>
+Author: <a href="https://tagsolutions.tk">Tim G.</a>
 Description: Adds a Registration Concept
 Text Domain: wp-rpg
 License: GPL3
