@@ -194,7 +194,7 @@ if ( !class_exists( 'wpRPG_Profiles' ) ) {
 			//History.js
 			wp_register_script( 'history.js', 'https://browserstate.github.io/history.js/scripts/bundled/html4+html5/jquery.history.js' );
 			//Ajaxify
-			wp_register_script( 'ajaxify', 'https://rawgithub.com/browserstate/ajaxify/master/ajaxify-html5.js' );
+			wp_register_script( 'ajaxify', 'https://cdn.jsdelivr.net/gh/browserstate/ajaxify@master/ajaxify-html5.js' );
 			//wp_enqueue_script( 'jquery-scrollto' );
 			wp_enqueue_script( 'history.js' );
 			//wp_enqueue_script( 'ajaxify' );
