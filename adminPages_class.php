@@ -1,6 +1,16 @@
 <?php
 
 	class adminPages{
+		/**
+		 * @var wpRPG wpRPG instance
+		 */
+		public $wpRPG;
+
+		/**
+		 * @var array Default admin tabs
+		 */
+		public $default_tabs;
+
 		public function __construct(){
 			$this->wpRPG = new wpRPG();
 			$this->default_tabs = array( //Default Admin Tabs. [keyword] => [Page Title]

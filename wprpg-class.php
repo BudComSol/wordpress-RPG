@@ -6,6 +6,21 @@
 class wpRPG {
 
     /**
+     * @var string File name
+     */
+    public $file_name;
+
+    /**
+     * @var string Displayed player
+     */
+    public $displayed_player;
+
+    /**
+     * @var array Cron jobs array
+     */
+    public $crons;
+
+    /**
      * Consrtuctor for wpRPG Class
      * @since 1.0.0
      */
