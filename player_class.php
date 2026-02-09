@@ -4,6 +4,7 @@
  * @since WPRPG 1.0.15
  */
 
+#[AllowDynamicProperties]
 class wpRPG_Player
 {
 	protected $self = array();
@@ -84,6 +85,7 @@ class wpRPG_Player
 	}
 }
 
+#[AllowDynamicProperties]
 class Player extends wpRPG_Player
 {
 	function __construct($uid = ''){

@@ -1,6 +1,7 @@
 <?php
 if(!class_exists('wpRPG_Item'))
 {
+	#[AllowDynamicProperties]
 	class wpRPG_Item
 	{
 		protected $self = array();
